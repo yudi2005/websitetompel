@@ -1,0 +1,86 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styling */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+/* Main section styling */
+main {
+    padding: 20px 0;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    border-bottom: 1px solid #e8491d;
+}
+
+.profile-image {
+    flex: 1;
+    max-width: 200px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.profile-info {
+    flex: 2;
+    max-width: 600px;
+}
+
+.profile-info h2 {
+    color: #35424a;
+    margin-bottom: 20px;
+}
+
+.profile-info p {
+    margin-bottom: 10px;
+}
+
+/* Footer styling */
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 30px;
+}
